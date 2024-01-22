@@ -1,0 +1,170 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+/* ================================================ Header ==================================== */
+.header {
+    height: 70px;
+    padding: 0px 20px;
+    display: flex;
+    align-items: center;
+}
+
+.w3schools-logo {
+    width: 50px;
+    padding: 2px 8px;
+    cursor: pointer;
+    margin-right: 5px;
+}
+
+.w3schools-logo img {
+    width: 100%;
+}
+
+.header-left {
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.header-left a {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 18px;
+    text-decoration: none;
+    color: #000000;
+    font-size: 20px;
+}
+
+.header-left a:hover {
+    background-color: #04aa6d;
+    color: #ffffff;
+}
+
+.fa-solid {
+    padding: 0px 3px;
+}
+
+.Search {
+    background-color: #ffffff;
+    border: 2px groove black;
+    border-radius: 20px;
+    padding: 5px 40px 5px 15px;
+    width: 150px;
+    background-image: url("images/search.png");
+    background-size: 23px;
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.dark-light-mode-icon {
+    margin-left: 15px;
+}
+
+.header-right {
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+.header-right a {
+    padding: 5px 18px;
+    text-decoration: none;
+    color: #000000;
+    font-size: 18px;
+    border: none;
+    border-radius: 20px;
+    margin-left: 5px;
+}
+
+#login {
+    background-color: #04aa6d;
+    color: #ffffff;
+    border: none;
+    font-weight: bold;
+}
+
+.buttons-JSG :hover {
+    background-color: #c4c1c1;
+}
+
+/* ================================================================================================== */
+
+/* ===================================== Horizontal Navbar ========================================== */
+.horinav {
+    height: 40px;
+    background-color: #000000;
+    display: flex;
+    align-items: center;
+}
+
+.horinav a {
+    cursor: pointer;
+    margin-left: 30px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 0 5px;
+}
+
+.effect:hover{
+    background-color: #059c65;
+}
+
+#effect{
+    background-color: #059c65;
+}
+
+/* =================================================================================================== */
+
+/* ============================================= Left Side Scorll =================================== */
+.leftsidescrollbar{
+    display: grid;
+    grid-template-columns: 210px 1fr;
+    height: auto;
+}
+
+.left-body{
+    background-color: #e7e9eb;
+    height: calc(96vh - 120px);
+    padding: 15px;
+    overflow-y: scroll;
+}
+
+.Heading-hnav{
+    font-size: 24px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.horinavlinks{
+    display: block;
+    color: #000000;
+    text-decoration: none;
+    font-size: 18px;
+    padding-top: 5px;
+}
+
+.horinavlinks:hover{
+    background-color: #c4c1c1;
+}
+
+.horinavlinks:active{
+    background-color: #04c55b;
+    color: #ffffff;
+}
+/* ================================================================================================== */
+
+.iframe-content{
+    height: 100%;
+    width: 100%;
+    border: none;
+}
